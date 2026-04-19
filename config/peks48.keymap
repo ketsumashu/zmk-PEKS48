@@ -46,6 +46,7 @@
             key-positions = <0 1>;
             timeout-ms = <20>;
             layers = <0>;
+            require-prior-idle-ms = <100>;
         };
 
         ctr {
@@ -53,6 +54,7 @@
             key-positions = <12 13>;
             layers = <0>;
             timeout-ms = <20>;
+            require-prior-idle-ms = <100>;
         };
 
         sft {
@@ -60,6 +62,7 @@
             key-positions = <24 25>;
             layers = <0>;
             timeout-ms = <20>;
+            require-prior-idle-ms = <100>;
         };
 
         bs {
@@ -67,6 +70,7 @@
             key-positions = <19 20>;
             layers = <0>;
             timeout-ms = <20>;
+            require-prior-idle-ms = <100>;
         };
 
         qt {
@@ -74,6 +78,7 @@
             key-positions = <32 33>;
             layers = <0>;
             timeout-ms = <20>;
+            require-prior-idle-ms = <100>;
         };
 
         eq {
@@ -81,6 +86,7 @@
             key-positions = <22 23>;
             layers = <0>;
             timeout-ms = <20>;
+            require-prior-idle-ms = <100>;
         };
 
         minus {
@@ -88,6 +94,7 @@
             key-positions = <10 11>;
             layers = <0>;
             timeout-ms = <20>;
+            require-prior-idle-ms = <100>;
         };
 
         lp {
@@ -95,6 +102,7 @@
             key-positions = <8 9>;
             layers = <0>;
             timeout-ms = <20>;
+            require-prior-idle-ms = <100>;
         };
 
         rp {
@@ -102,6 +110,7 @@
             key-positions = <9 10>;
             layers = <0>;
             timeout-ms = <20>;
+            require-prior-idle-ms = <100>;
         };
 
         lbrace {
@@ -109,6 +118,7 @@
             key-positions = <20 21>;
             layers = <0>;
             timeout-ms = <20>;
+            require-prior-idle-ms = <100>;
         };
 
         rbrace {
@@ -116,6 +126,7 @@
             key-positions = <21 22>;
             layers = <0>;
             timeout-ms = <20>;
+            require-prior-idle-ms = <100>;
         };
     };
 
