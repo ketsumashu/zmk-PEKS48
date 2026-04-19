@@ -45,7 +45,7 @@
             bindings = <&sk LCTRL>;
             key-positions = <12 13>;
             layers = <1>;
-            timeout-ms = <150>;
+            timeout-ms = <140>;
         };
 
         tab {
