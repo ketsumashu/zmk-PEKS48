@@ -44,89 +44,89 @@
         tab {
             bindings = <&kp TAB>;
             key-positions = <0 1>;
-            timeout-ms = <20>;
+            timeout-ms = <40>;
             layers = <0>;
-            require-prior-idle-ms = <100>;
+            require-prior-idle-ms = <75>;
         };
 
         ctr {
             bindings = <&sk LCTRL>;
             key-positions = <12 13>;
             layers = <0>;
-            timeout-ms = <20>;
-            require-prior-idle-ms = <100>;
+            timeout-ms = <40>;
+            require-prior-idle-ms = <75>;
         };
 
         sft {
             bindings = <&sk LSHFT>;
             key-positions = <24 25>;
             layers = <0>;
-            timeout-ms = <20>;
-            require-prior-idle-ms = <100>;
+            timeout-ms = <40>;
+            require-prior-idle-ms = <75>;
         };
 
         bs {
             bindings = <&kp BACKSPACE>;
             key-positions = <19 20>;
             layers = <0>;
-            timeout-ms = <20>;
-            require-prior-idle-ms = <100>;
+            timeout-ms = <40>;
+            require-prior-idle-ms = <70>;
         };
 
         qt {
             bindings = <&kp SQT>;
             key-positions = <32 33>;
             layers = <0>;
-            timeout-ms = <20>;
-            require-prior-idle-ms = <100>;
+            timeout-ms = <40>;
+            require-prior-idle-ms = <75>;
         };
 
         eq {
             bindings = <&kp EQUAL>;
             key-positions = <22 23>;
             layers = <0>;
-            timeout-ms = <20>;
-            require-prior-idle-ms = <100>;
+            timeout-ms = <40>;
+            require-prior-idle-ms = <70>;
         };
 
         minus {
             bindings = <&kp MINUS>;
             key-positions = <10 11>;
             layers = <0>;
-            timeout-ms = <20>;
-            require-prior-idle-ms = <85>;
+            timeout-ms = <40>;
+            require-prior-idle-ms = <75>;
         };
 
         lp {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <8 9>;
             layers = <0>;
-            timeout-ms = <20>;
-            require-prior-idle-ms = <100>;
+            timeout-ms = <40>;
+            require-prior-idle-ms = <70>;
         };
 
         rp {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <9 10>;
             layers = <0>;
-            timeout-ms = <20>;
-            require-prior-idle-ms = <100>;
+            timeout-ms = <40>;
+            require-prior-idle-ms = <70>;
         };
 
         lbrace {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <20 21>;
             layers = <0>;
-            timeout-ms = <20>;
-            require-prior-idle-ms = <100>;
+            timeout-ms = <40>;
+            require-prior-idle-ms = <70>;
         };
 
         rbrace {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <21 22>;
             layers = <0>;
-            timeout-ms = <20>;
-            require-prior-idle-ms = <100>;
+            timeout-ms = <40>;
+            require-prior-idle-ms = <70>;
         };
     };
 
@@ -146,10 +146,10 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W      &kp E         &kp R         &kp T      &none                &none              &kp Y      &kp U       &kp I      &kp O            &kp P
-&kp A           &kp S      &kp D         &kp F         &kp G      &none                &none              &kp H      &kp J       &kp K      &kp L            &kp SEMICOLON
-&kp Z           &kp X      &kp C         &kp V         &kp B      &none                &none              &kp N      &kp M       &kp COMMA  &kp PERIOD       &kp SLASH
-&kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &kp SPACE  &new_behavior 1 1    &new_behavior 2 2  &kp ENTER  &kp RETURN  &kp RGUI   &kp RIGHT_SHIFT  &kp RCTRL
+&kp Q      &kp W         &kp E         &kp R      &kp T              &none                &none              &kp Y              &kp U                 &kp I      &kp O         &kp P
+&kp A      &kp S         &kp D         &kp F      &kp G              &none                &none              &kp H              &kp J                 &kp K      &kp L         &kp SEMICOLON
+&kp Z      &kp X         &kp C         &kp V      &kp B              &none                &none              &kp N              &kp M                 &kp COMMA  &kp PERIOD    &kp SLASH
+&kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN  &kp SPACE  &new_behavior 1 1  &new_behavior 1 1    &new_behavior 2 2  &new_behavior 2 2  &mt ENTER LEFT_SHIFT  &kp RGUI   &kp LEFT_ALT  &kp RCTRL
             >;
         };
 
